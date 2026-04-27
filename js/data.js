@@ -122,7 +122,7 @@ window.portfolioData = {
         personal: {
             name: "Wang Yue",
             title: "AI Engineer / Researcher",
-            bio: "Currently, I am working as an Engineer at Huawei, focusing on inference engine development and model performance tuning based on Ascend hardware. I received my Master's degree in Artificial Intelligence from Shanghai Jiao Tong University (SJTU). My research interests primarily lie in Multimodal Learning and Parameter-Efficient Fine-Tuning. I have published several papers in these areas at top-tier AI conferences, with a total of 395 citations (h-index: 5). I am dedicated to exploring and designing foundation models and agent systems that are more efficient, hardware-friendly, and highly generalizable.",
+            bio: "Currently, I am working as an Engineer at Huawei, focusing on inference engine development and model performance tuning based on Ascend hardware. I received my Master's degree in Artificial Intelligence from Shanghai Jiao Tong University. My research interests primarily lie in Multimodal Learning and Parameter-Efficient Fine-Tuning. I have published several papers in these areas at top-tier AI conferences, with a total of 395 citations (h-index: 5). I am dedicated to exploring and designing foundation models and agent systems that are more efficient, hardware-friendly, and highly generalizable.",
             avatar: "images/avatar.jpg",
             email: "nomewang@outlook.com",
             github: "https://github.com/nomewang",
