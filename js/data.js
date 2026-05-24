@@ -4,7 +4,7 @@ window.portfolioData = {
         personal: {
             name: "王玥",
             title: "AI 工程师 / 研究者",
-            bio: "我目前在华为担任工程师，主要从事基于昇腾硬件的推理引擎开发和模型性能调优工作。我毕业于上海交通大学人工智能专业，并获得硕士学位。我的研究兴趣主要集中在多模态学习与参数高效微调。在相关领域发表了多篇顶级AI会议论文，累计被引用达395次（h-index: 5）。我致力于探索和设计更高效、更具硬件亲和性且泛化能力卓越的基础模型与智能体系统。",
+            bio: "我目前在华为担任工程师，主要从事基于昇腾硬件的推理引擎开发和模型性能调优工作。我毕业于上海交通大学人工智能专业，并获得硕士学位。我的研究兴趣主要集中在多模态学习与参数高效微调。在相关领域发表了多篇顶级AI会议论文，累计被引用达412次（h-index: 5）。我致力于探索和设计更高效、更具硬件亲和性且泛化能力卓越的基础模型与智能体系统。",
             avatar: "images/avatar.jpg",
             email: "nomewang@outlook.com",
             github: "https://github.com/nomewang",
@@ -122,7 +122,7 @@ window.portfolioData = {
         personal: {
             name: "Wang Yue",
             title: "AI Engineer / Researcher",
-            bio: "Currently, I am working as an Engineer at Huawei, focusing on inference engine development and model performance tuning based on Ascend hardware. I received my Master's degree in Artificial Intelligence from Shanghai Jiao Tong University. My research interests primarily lie in Multimodal Learning and Parameter-Efficient Fine-Tuning. I have published several papers in these areas at top-tier AI conferences, with a total of 395 citations (h-index: 5). I am dedicated to exploring and designing foundation models and agent systems that are more efficient, hardware-friendly, and highly generalizable.",
+            bio: "Currently, I am working as an Engineer at Huawei, focusing on inference engine development and model performance tuning based on Ascend hardware. I received my Master's degree in Artificial Intelligence from Shanghai Jiao Tong University. My research interests primarily lie in Multimodal Learning and Parameter-Efficient Fine-Tuning. I have published several papers in these areas at top-tier AI conferences, with a total of 412 citations (h-index: 5). I am dedicated to exploring and designing foundation models and agent systems that are more efficient, hardware-friendly, and highly generalizable.",
             avatar: "images/avatar.jpg",
             email: "nomewang@outlook.com",
             github: "https://github.com/nomewang",
