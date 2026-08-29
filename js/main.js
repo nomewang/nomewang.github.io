@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // 2. 渲染基本信息
         document.getElementById('nav-name').textContent = data.personal.name;
         document.getElementById('hero-name').textContent = data.personal.name;
-        document.getElementById('hero-title').textContent = data.personal.title;
+        // 头衔/职位已暂时删除，如需加回，恢复 index.html 中的 hero-title 段落并取消下一行注释
+        // document.getElementById('hero-title').textContent = data.personal.title;
         document.getElementById('hero-bio').textContent = data.personal.bio;
         
         const avatarImg = document.getElementById('hero-avatar');

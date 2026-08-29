@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- 引入自定义样式 -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- 引入 Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- 引入 Google Fonts（使用国内镜像，避免连接被重置） -->
+    <link rel="preconnect" href="https://fonts.loli.net">
+    <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
+    <link href="https://fonts.loli.net/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-indigo-100 selection:text-indigo-900 font-sans relative">
     
@@ -64,10 +64,12 @@
                     <!-- 个人信息区域 -->
                     <div class="flex-1 text-center md:text-left pt-2">
                         <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight" id="hero-name">姓名</h1>
+                        <!-- 头衔/职位行（暂时删除；如需加回，恢复此段落并在 main.js 中恢复渲染即可）
                         <p class="mt-4 text-xl text-indigo-600 font-semibold tracking-wide flex items-center justify-center md:justify-start gap-2">
                             <i class="fa-solid fa-terminal text-sm opacity-70"></i>
                             <span id="hero-title">头衔 / 职位</span>
                         </p>
+                        -->
                         <p class="mt-6 text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto md:mx-0 font-light" id="hero-bio">
                             个人简介内容...
                         </p>

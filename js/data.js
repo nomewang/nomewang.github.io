@@ -3,14 +3,20 @@ window.portfolioData = {
     zh: {
         personal: {
             name: "王玥",
-            title: "AI 工程师 / 研究者",
-            bio: "我目前在华为担任工程师，主要从事基于昇腾硬件的推理引擎开发和模型性能调优工作。我毕业于上海交通大学人工智能专业，并获得硕士学位。我的研究兴趣主要集中在多模态学习与参数高效微调。在相关领域发表了多篇顶级AI会议论文，累计被引用达496次（h-index: 5）。我致力于探索和设计更高效、更具硬件亲和性且泛化能力卓越的基础模型与智能体系统。",
+            title: "", // 原值："AI 工程师 / 研究者"（如需加回，恢复此字符串即可）
+            bio: "当前博士生在读，研究兴趣领域为具身智能。我硕士毕业于上海交通大学人工智能专业。曾在华为担任工程师，主要从事基于昇腾硬件的推理引擎开发和模型性能调优工作。目前发表了多篇顶级AI会议论文，累计被引用达498次（h-index: 5）。我致力于探索和设计更高效、更具硬件亲和性且泛化能力卓越的基础模型与智能体系统。",
             avatar: "images/avatar.jpg",
             email: "nomewang@outlook.com",
             github: "https://github.com/nomewang",
             googleScholar: "https://scholar.google.com/citations?user=kxpuv3YAAAAJ&hl=en"
         },
         education: [
+            {
+                degree: "计算机科学与技术 博士研究生",
+                institution: "清华大学",
+                year: "2026.08 - 至今",
+                description: "研究方向：具身智能。"
+            },
             {
                 degree: "人工智能 硕士",
                 institution: "上海交通大学",
@@ -28,7 +34,7 @@ window.portfolioData = {
             {
                 role: "工程师",
                 company: "华为",
-                year: "2024.04 - 至今",
+                year: "2024.04 - 2026.06",
                 achievements: [
                     "负责基于昇腾NPU的大模型推理引擎的开发与性能优化。作为模块MDE（Module Design Engineer），主导并参与了多项核心竞争力特性的设计与开发落地。",
                     "推出基于大规模AI服务器集群的并行推理方案，结合多种并行策略（DP/EP/TP/局部TP/CP等）充分利用算力、内存及多卡通信带宽，极致优化推理吞吐与时延。",
@@ -121,14 +127,20 @@ window.portfolioData = {
     en: {
         personal: {
             name: "Wang Yue",
-            title: "AI Engineer / Researcher",
-            bio: "Currently, I am working as an Engineer at Huawei, focusing on inference engine development and model performance tuning based on Ascend hardware. I received my Master's degree in Artificial Intelligence from Shanghai Jiao Tong University. My research interests primarily lie in Multimodal Learning and Parameter-Efficient Fine-Tuning. I have published several papers in these areas at top-tier AI conferences, with a total of 496 citations (h-index: 5). I am dedicated to exploring and designing foundation models and agent systems that are more efficient, hardware-friendly, and highly generalizable.",
+            title: "", // Original: "AI Engineer / Researcher" (restore this string to bring it back)
+            bio: "I am currently a Ph.D. student, with a research interest in Embodied AI. I received my Master's degree in Artificial Intelligence from Shanghai Jiao Tong University. I previously worked as an Engineer at Huawei, focusing on inference engine development and model performance tuning based on Ascend hardware. I have published several top-tier AI conference papers, with a total of 498 citations (h-index: 5). I am dedicated to exploring and designing foundation models and agent systems that are more efficient, hardware-friendly, and highly generalizable.",
             avatar: "images/avatar.jpg",
             email: "nomewang@outlook.com",
             github: "https://github.com/nomewang",
             googleScholar: "https://scholar.google.com/citations?user=kxpuv3YAAAAJ&hl=en"
         },
         education: [
+            {
+                degree: "Ph.D. Student in Computer Science and Technology",
+                institution: "Tsinghua University",
+                year: "2026.08 - Present",
+                description: "Research Area: Embodied AI."
+            },
             {
                 degree: "Master of Artificial Intelligence",
                 institution: "Shanghai Jiao Tong University",
@@ -146,7 +158,7 @@ window.portfolioData = {
             {
                 role: "Engineer",
                 company: "Huawei",
-                year: "2024.04 - Present",
+                year: "2024.04 - 2026.06",
                 achievements: [
                     "Responsible for the development and performance optimization of a large model inference engine based on Ascend NPU. As a Module Design Engineer (MDE), led and participated in the design and development of multiple core competitive features.",
                     "Launched a parallel reasoning solution for large-scale AI server clusters, combining various parallel strategies (DP/EP/TP/Partial-TP/CP) to fully utilize compute, memory, and multi-GPU communication bandwidth, ultimately optimizing inference throughput and latency.",
